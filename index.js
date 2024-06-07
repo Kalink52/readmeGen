@@ -7,10 +7,10 @@ const generateMarkdown = require("./utils/generateMarkdown");
 const questions = [
     {type: "input",
     message: "what is your github username?",
-    name: "userName"}, //todo
+    name: "userName"},
     {type: "input",
     message: "What is your email address?",
-    name: "userEmail"}, //todo
+    name: "userEmail"},
     {type: "input",
     message: "What is your project's name?",
     name: "title"},
@@ -22,8 +22,11 @@ const questions = [
     name: "license",
     choices: ["MIT", "APACHE 2.0", "GPL 3.0", "BSD 3", "none"]},
     {type: "input",
-    message: "What command should I run to run the dependencies?",
+    message: "What command should be run to run the dependencies?",
     name: "command"},
+    {type: "input",
+    message: "What command should be run to run test?",
+    name: "test"},
     {type: "input",
     message: "What does the user need to know about using the repo?",
     name: "usage"},
@@ -47,7 +50,6 @@ function init() {
   .prompt(questions)
   .then((response) => {
     let markdown = generateMarkdown(response)
-    console.log(markdown)
     writeToFile('test.md', markdown)
   }
 )
