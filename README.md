@@ -1,7 +1,9 @@
 # README Generator 
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) 
   ## Description
-  
+  creates a read me
+## VideoWalkthrough
+[ClickHere](<Assets/2024-07-17 13-53-36.mkv>)
   ## Table of Contents
   * [Installation](#Installation)
   * [Usage](#Usage)
@@ -10,7 +12,7 @@
   >npm i 
   ## Usage
   install and run
-  >node idex.js
+  >node index.js
   ## License
   [https://opensource.org/licenses/MIT](https://opensource.org/licenses/MIT)
 
