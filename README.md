@@ -3,7 +3,8 @@
   ## Description
   creates a read me
 ## VideoWalkthrough
-<video controls src="Assets/2024-07-17 14-07-12.mp4" title="Title"></video>
+[CLICK ME](https://drive.google.com/file/d/1zo65ydYwvcggTLkcsSMSLhx2s2ixE66w/view?usp=sharing)
+
   ## Table of Contents
   * [Installation](#Installation)
   * [Usage](#Usage)
